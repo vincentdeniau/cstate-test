@@ -3,7 +3,7 @@ section: issue
 title: Incident de test
 date: 2024-03-20T14:53:57.908Z
 resolved: false
-draft: true
+draft: false
 informational: false
 pin: true
 resolvedWhen: 2024-03-20T14:53:57.914Z

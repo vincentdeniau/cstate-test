@@ -37,9 +37,9 @@ params:
   shortDateFormat: 02/01 15:04
   down: "#e60000"
   systems:
-    - name: PareFeuxA
+    - name: Pare-feu
       category: Site A
-    - name: Pare-Feux A
+    - name: Pare-feu
       category: Site B
   dateFormat: Mon 2 January 2006 at 15:04
   brand: "#0a0c0f"
@@ -48,9 +48,7 @@ params:
   logo: logo.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
-  customTabs:
-    - name: Test Tab
-      link: https://google.com
+  customTabs: []
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: false
@@ -62,10 +60,10 @@ params:
   categories:
     - name: Site A
       description: Services spécifiques du site A
-      closed: true
+      closed: false
     - name: Site B
       description: Services spécifiques du site B
-      closed: true
+      closed: false
     - name: Uncategorized
       untitled: true
   description: Nous monitorons l'état de nos services et indiquons ici les

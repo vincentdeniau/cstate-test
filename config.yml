@@ -37,7 +37,7 @@ params:
   shortDateFormat: 02/01 15:04
   down: "#e60000"
   systems:
-    - name: Pare-feu
+    - name: PareFeuA
       category: Site A
     - name: Pare-feu
       category: Site B

@@ -32,7 +32,7 @@ outputFormats:
 enableGitInfo: true
 params:
   skipSeconds: true
-  useRelativeTime: true
+  useRelativeTime: false
   disableDarkMode: false
   shortDateFormat: 02/01 15:04
   down: "#e60000"
@@ -41,6 +41,10 @@ params:
       category: Site A
     - name: Pare-feu
       category: Site B
+    - name: Test Espace
+      description: Test de Composant avec espace dans le nom.
+      partial: custom/testpartial.html
+      category: Uncategorized
   dateFormat: Mon 2 January 2006 at 15:04
   brand: "#0a0c0f"
   enableLastMod: true
